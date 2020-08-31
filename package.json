@@ -1,0 +1,32 @@
+{
+  "name": "covid-tracker-express-app",
+  "version": "1.0.0",
+  "description": "This repo included APIs to be used for  maintaining, updating the count of various observation(Confirmed, Recovered, Fatal) of covid-19 cases in India, on state and district level and also classifies the district into [Green, Orange, Red] zone based on count of Cases.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srishtivishnoi2102/Covid-Tracker-Express-App.git"
+  },
+  "author": "Srishti Vishnoi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srishtivishnoi2102/Covid-Tracker-Express-App/issues"
+  },
+  "homepage": "https://github.com/srishtivishnoi2102/Covid-Tracker-Express-App#readme",
+  "dependencies": {
+    "@types/mysql": "^2.15.15",
+    "await-to-js": "^2.1.1",
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "joi": "^17.2.1",
+    "mysql": "^2.18.1",
+    "promise": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
